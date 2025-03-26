@@ -22,4 +22,8 @@ function overwriteBestCustomer() {
     bestCustomer = "maybe bob"; // Reassigns the global bestCustomer variable
   }
   
-  
+  //changes leastFavoriteCustomer
+const leastFavoriteCustomer = "someone";
+function changeLeastFavoriteCustomer() {
+    leastFavoriteCustomer = "new person"; 
+  }
