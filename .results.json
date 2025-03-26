@@ -2,12 +2,12 @@
   "stats": {
     "suites": 6,
     "tests": 5,
-    "passes": 1,
+    "passes": 2,
     "pending": 0,
-    "failures": 4,
-    "start": "2025-03-26T12:20:11.005Z",
-    "end": "2025-03-26T12:20:13.029Z",
-    "duration": 2024
+    "failures": 3,
+    "start": "2025-03-26T12:21:57.719Z",
+    "end": "2025-03-26T12:21:59.457Z",
+    "duration": 1738
   },
   "tests": [
     {
@@ -20,12 +20,9 @@
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 0,
+      "duration": 2,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: upperCaseCustomerName is not defined\n    at Context.<anonymous> (test/indexTest.js:14:7)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "upperCaseCustomerName is not defined"
-      }
+      "err": {}
     },
     {
       "title": "setBestCustomer",
@@ -61,16 +58,6 @@
   "pending": [],
   "failures": [
     {
-      "title": "modifies the customerName variable",
-      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: upperCaseCustomerName is not defined\n    at Context.<anonymous> (test/indexTest.js:14:7)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "upperCaseCustomerName is not defined"
-      }
-    },
-    {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
       "duration": 0,
@@ -105,6 +92,13 @@
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "modifies the customerName variable",
+      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
       "duration": 2,
       "currentRetry": 0,
       "err": {}

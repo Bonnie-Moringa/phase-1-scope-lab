@@ -7,3 +7,7 @@ function returnCustomerName() {
   return customerName;
 }
 
+//modify customerName
+function upperCaseCustomerName() {
+  customerName = customerName.toUpperCase();
+}
