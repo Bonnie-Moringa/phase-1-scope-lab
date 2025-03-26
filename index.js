@@ -17,3 +17,9 @@ function setBestCustomer() {
     bestCustomer = "not bob"; // Implicitly global
   }
   
+  //overwrite bestCustomer
+function overwriteBestCustomer() {
+    bestCustomer = "maybe bob"; // Reassigns the global bestCustomer variable
+  }
+  
+  
