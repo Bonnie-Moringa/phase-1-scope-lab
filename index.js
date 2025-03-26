@@ -1,5 +1,5 @@
 // Write your solution in this file!
-// 1) Declare customerName in the global scope
+//Declaring customerName in the global scope
 var customerName = "bob"; 
 
 //return customerName
@@ -11,3 +11,9 @@ function returnCustomerName() {
 function upperCaseCustomerName() {
   customerName = customerName.toUpperCase();
 }
+
+//set bestCustomer
+function setBestCustomer() {
+    bestCustomer = "not bob"; // Implicitly global
+  }
+  
